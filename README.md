@@ -16,8 +16,22 @@ wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVice
 Unstall    
 ```
 wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh unstall
-
 ```  
+
+使用说明
+```
+/appex/bin/lotServer.sh start
+#启动
+ 
+/appex/bin/lotServer.sh stats
+#状态查询
+ 
+/appex/bin/lotServer.sh stop
+#停止
+
+/appex/etc/config
+#配置文件
+```
 ----------------------------- 
 -----------------------------
 部分用法说明(制作一键脚本或手动安装,仅供学习测试使用)
