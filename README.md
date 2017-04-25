@@ -21,16 +21,16 @@ wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVice
 
 使用说明
 ```
-/appex/bin/lotServer.sh start
+/appex/bin/serverSpeeder.sh start
 #启动
  
-/appex/bin/lotServer.sh stats
+/appex/bin/serverSpeeder.sh stats
 #状态查询
  
-/appex/bin/lotServer.sh stop
+/appex/bin/serverSpeeder.sh stop
 #停止
 
-/appex/etc/config
+vi /appex/etc/config
 #配置文件
 
 bash /appex/bin/serverSpeeder.sh renewLic
